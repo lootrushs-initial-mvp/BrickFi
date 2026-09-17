@@ -1,0 +1,4135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "alice@example.com",
+      "name": "Alice",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "bob@example.com",
+      "name": "Bob",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "email": "merchant@example.com",
+      "name": "Merchant Inc",
+      "role": "merchant"
+    },
+    {
+      "id": 4,
+      "email": "test1@gmail.com",
+      "name": "Test One",
+      "role": "user",
+      "password_hash": "$2a$10$FaM2FjN9R5orOgZ.vzPgIevDCUPUGgeL5EfkTw.doroLOpzTvgBSC"
+    }
+  ],
+  "cryptos": [
+    {
+      "id": 1,
+      "name": "BTC Coin",
+      "symbol": "BTC",
+      "price": 24218.34,
+      "change24h": 1.54,
+      "marketCap": 7309207207
+    },
+    {
+      "id": 2,
+      "name": "ETH1 Coin",
+      "symbol": "ETH1",
+      "price": 12635.49,
+      "change24h": 1.91,
+      "marketCap": 8234359191
+    },
+    {
+      "id": 3,
+      "name": "SOL2 Coin",
+      "symbol": "SOL2",
+      "price": 3519.5,
+      "change24h": 4.5,
+      "marketCap": 4726836197
+    },
+    {
+      "id": 4,
+      "name": "ADA3 Coin",
+      "symbol": "ADA3",
+      "price": 20248.66,
+      "change24h": -4.25,
+      "marketCap": 5091359572
+    },
+    {
+      "id": 5,
+      "name": "DOT4 Coin",
+      "symbol": "DOT4",
+      "price": 40055.23,
+      "change24h": -4.76,
+      "marketCap": 4221375766
+    },
+    {
+      "id": 6,
+      "name": "AVAX5 Coin",
+      "symbol": "AVAX5",
+      "price": 48413.24,
+      "change24h": 0.43,
+      "marketCap": 1530402134
+    },
+    {
+      "id": 7,
+      "name": "LTC6 Coin",
+      "symbol": "LTC6",
+      "price": 14557.81,
+      "change24h": 3.35,
+      "marketCap": 6847204195
+    },
+    {
+      "id": 8,
+      "name": "XRP7 Coin",
+      "symbol": "XRP7",
+      "price": 25337.45,
+      "change24h": -4.49,
+      "marketCap": 2728404743
+    },
+    {
+      "id": 9,
+      "name": "DOGE8 Coin",
+      "symbol": "DOGE8",
+      "price": 36284,
+      "change24h": -0.91,
+      "marketCap": 7494891205
+    },
+    {
+      "id": 10,
+      "name": "LINK9 Coin",
+      "symbol": "LINK9",
+      "price": 32690.97,
+      "change24h": -2.51,
+      "marketCap": 5777093224
+    },
+    {
+      "id": 11,
+      "name": "UNI10 Coin",
+      "symbol": "UNI10",
+      "price": 21460.7,
+      "change24h": 3.09,
+      "marketCap": 737406844
+    },
+    {
+      "id": 12,
+      "name": "MATIC11 Coin",
+      "symbol": "MATIC11",
+      "price": 10578.33,
+      "change24h": 4.91,
+      "marketCap": 1687306019
+    },
+    {
+      "id": 13,
+      "name": "ATOM12 Coin",
+      "symbol": "ATOM12",
+      "price": 24585.45,
+      "change24h": 3.96,
+      "marketCap": 7267867487
+    },
+    {
+      "id": 14,
+      "name": "XLM13 Coin",
+      "symbol": "XLM13",
+      "price": 31254.78,
+      "change24h": -2.66,
+      "marketCap": 1145252591
+    },
+    {
+      "id": 15,
+      "name": "TRX14 Coin",
+      "symbol": "TRX14",
+      "price": 36616.89,
+      "change24h": -0.26,
+      "marketCap": 8643452075
+    },
+    {
+      "id": 16,
+      "name": "BTC15 Coin",
+      "symbol": "BTC15",
+      "price": 20089.71,
+      "change24h": -2.11,
+      "marketCap": 7745754613
+    },
+    {
+      "id": 17,
+      "name": "ETH16 Coin",
+      "symbol": "ETH16",
+      "price": 4963.96,
+      "change24h": 0.84,
+      "marketCap": 8019342728
+    },
+    {
+      "id": 18,
+      "name": "SOL17 Coin",
+      "symbol": "SOL17",
+      "price": 19303.28,
+      "change24h": 0.04,
+      "marketCap": 8524539740
+    },
+    {
+      "id": 19,
+      "name": "ADA18 Coin",
+      "symbol": "ADA18",
+      "price": 3968.18,
+      "change24h": -3.85,
+      "marketCap": 4485563617
+    },
+    {
+      "id": 20,
+      "name": "DOT19 Coin",
+      "symbol": "DOT19",
+      "price": 30207.23,
+      "change24h": -1.72,
+      "marketCap": 1886218781
+    },
+    {
+      "id": 21,
+      "name": "AVAX20 Coin",
+      "symbol": "AVAX20",
+      "price": 35791.94,
+      "change24h": 4.76,
+      "marketCap": 1764462458
+    },
+    {
+      "id": 22,
+      "name": "LTC21 Coin",
+      "symbol": "LTC21",
+      "price": 3410.04,
+      "change24h": -0.17,
+      "marketCap": 5836114743
+    },
+    {
+      "id": 23,
+      "name": "XRP22 Coin",
+      "symbol": "XRP22",
+      "price": 45530.77,
+      "change24h": -0.44,
+      "marketCap": 3971333466
+    },
+    {
+      "id": 24,
+      "name": "DOGE23 Coin",
+      "symbol": "DOGE23",
+      "price": 40172.18,
+      "change24h": 4.38,
+      "marketCap": 8108447725
+    },
+    {
+      "id": 25,
+      "name": "LINK24 Coin",
+      "symbol": "LINK24",
+      "price": 5357.42,
+      "change24h": 3.71,
+      "marketCap": 7647421389
+    },
+    {
+      "id": 26,
+      "name": "UNI25 Coin",
+      "symbol": "UNI25",
+      "price": 35088.76,
+      "change24h": -0.36,
+      "marketCap": 4331249799
+    },
+    {
+      "id": 27,
+      "name": "MATIC26 Coin",
+      "symbol": "MATIC26",
+      "price": 43629.27,
+      "change24h": -2.42,
+      "marketCap": 6575709828
+    },
+    {
+      "id": 28,
+      "name": "ATOM27 Coin",
+      "symbol": "ATOM27",
+      "price": 37974.07,
+      "change24h": 3.31,
+      "marketCap": 5543238647
+    },
+    {
+      "id": 29,
+      "name": "XLM28 Coin",
+      "symbol": "XLM28",
+      "price": 27922.09,
+      "change24h": 0.23,
+      "marketCap": 5983389104
+    },
+    {
+      "id": 30,
+      "name": "TRX29 Coin",
+      "symbol": "TRX29",
+      "price": 29448.86,
+      "change24h": -3.56,
+      "marketCap": 4871338376
+    },
+    {
+      "id": 31,
+      "name": "BTC30 Coin",
+      "symbol": "BTC30",
+      "price": 17324.67,
+      "change24h": -0.46,
+      "marketCap": 6586241146
+    },
+    {
+      "id": 32,
+      "name": "ETH31 Coin",
+      "symbol": "ETH31",
+      "price": 26766.71,
+      "change24h": -0.64,
+      "marketCap": 6710306765
+    },
+    {
+      "id": 33,
+      "name": "SOL32 Coin",
+      "symbol": "SOL32",
+      "price": 41754.59,
+      "change24h": 4.09,
+      "marketCap": 6193962860
+    },
+    {
+      "id": 34,
+      "name": "ADA33 Coin",
+      "symbol": "ADA33",
+      "price": 32645.33,
+      "change24h": 4.42,
+      "marketCap": 4820239755
+    },
+    {
+      "id": 35,
+      "name": "DOT34 Coin",
+      "symbol": "DOT34",
+      "price": 9319.88,
+      "change24h": 4.59,
+      "marketCap": 5650526631
+    },
+    {
+      "id": 36,
+      "name": "AVAX35 Coin",
+      "symbol": "AVAX35",
+      "price": 27633.17,
+      "change24h": 3.45,
+      "marketCap": 176090382
+    },
+    {
+      "id": 37,
+      "name": "LTC36 Coin",
+      "symbol": "LTC36",
+      "price": 24330.34,
+      "change24h": -4.92,
+      "marketCap": 67153569
+    },
+    {
+      "id": 38,
+      "name": "XRP37 Coin",
+      "symbol": "XRP37",
+      "price": 8099.46,
+      "change24h": 2.45,
+      "marketCap": 5655065808
+    },
+    {
+      "id": 39,
+      "name": "DOGE38 Coin",
+      "symbol": "DOGE38",
+      "price": 41505.03,
+      "change24h": -4.67,
+      "marketCap": 7733495356
+    },
+    {
+      "id": 40,
+      "name": "LINK39 Coin",
+      "symbol": "LINK39",
+      "price": 46251.82,
+      "change24h": -3.9,
+      "marketCap": 9902358117
+    },
+    {
+      "id": 41,
+      "name": "UNI40 Coin",
+      "symbol": "UNI40",
+      "price": 16279.27,
+      "change24h": -1.06,
+      "marketCap": 9789482117
+    },
+    {
+      "id": 42,
+      "name": "MATIC41 Coin",
+      "symbol": "MATIC41",
+      "price": 36173.29,
+      "change24h": 0.1,
+      "marketCap": 9182487505
+    },
+    {
+      "id": 43,
+      "name": "ATOM42 Coin",
+      "symbol": "ATOM42",
+      "price": 19417.69,
+      "change24h": 0.91,
+      "marketCap": 5982402395
+    },
+    {
+      "id": 44,
+      "name": "XLM43 Coin",
+      "symbol": "XLM43",
+      "price": 12146.1,
+      "change24h": 0.68,
+      "marketCap": 1976717253
+    },
+    {
+      "id": 45,
+      "name": "TRX44 Coin",
+      "symbol": "TRX44",
+      "price": 26082.35,
+      "change24h": -3.77,
+      "marketCap": 3116811314
+    },
+    {
+      "id": 46,
+      "name": "BTC45 Coin",
+      "symbol": "BTC45",
+      "price": 14978.42,
+      "change24h": -0.28,
+      "marketCap": 4386363347
+    },
+    {
+      "id": 47,
+      "name": "ETH46 Coin",
+      "symbol": "ETH46",
+      "price": 18731.7,
+      "change24h": 4.3,
+      "marketCap": 8594642197
+    },
+    {
+      "id": 48,
+      "name": "SOL47 Coin",
+      "symbol": "SOL47",
+      "price": 49809.85,
+      "change24h": 4.43,
+      "marketCap": 4811087200
+    },
+    {
+      "id": 49,
+      "name": "ADA48 Coin",
+      "symbol": "ADA48",
+      "price": 14350.71,
+      "change24h": 3.89,
+      "marketCap": 1321958954
+    },
+    {
+      "id": 50,
+      "name": "DOT49 Coin",
+      "symbol": "DOT49",
+      "price": 9241.54,
+      "change24h": -1.68,
+      "marketCap": 2812624218
+    },
+    {
+      "id": 51,
+      "name": "AVAX50 Coin",
+      "symbol": "AVAX50",
+      "price": 24013.67,
+      "change24h": -3.57,
+      "marketCap": 2825148208
+    },
+    {
+      "id": 52,
+      "name": "LTC51 Coin",
+      "symbol": "LTC51",
+      "price": 36195.51,
+      "change24h": 0.03,
+      "marketCap": 5602265254
+    },
+    {
+      "id": 53,
+      "name": "XRP52 Coin",
+      "symbol": "XRP52",
+      "price": 22065.78,
+      "change24h": 4.23,
+      "marketCap": 9267024330
+    },
+    {
+      "id": 54,
+      "name": "DOGE53 Coin",
+      "symbol": "DOGE53",
+      "price": 40954.17,
+      "change24h": 0.48,
+      "marketCap": 3717298520
+    },
+    {
+      "id": 55,
+      "name": "LINK54 Coin",
+      "symbol": "LINK54",
+      "price": 6436.83,
+      "change24h": -0.13,
+      "marketCap": 5983328545
+    },
+    {
+      "id": 56,
+      "name": "UNI55 Coin",
+      "symbol": "UNI55",
+      "price": 44015.22,
+      "change24h": -2.78,
+      "marketCap": 2211159323
+    },
+    {
+      "id": 57,
+      "name": "MATIC56 Coin",
+      "symbol": "MATIC56",
+      "price": 27646.44,
+      "change24h": 0.08,
+      "marketCap": 5200534511
+    },
+    {
+      "id": 58,
+      "name": "ATOM57 Coin",
+      "symbol": "ATOM57",
+      "price": 38771.21,
+      "change24h": -1.78,
+      "marketCap": 1753317975
+    },
+    {
+      "id": 59,
+      "name": "XLM58 Coin",
+      "symbol": "XLM58",
+      "price": 16063.14,
+      "change24h": -2.75,
+      "marketCap": 894104826
+    },
+    {
+      "id": 60,
+      "name": "TRX59 Coin",
+      "symbol": "TRX59",
+      "price": 22887.41,
+      "change24h": 0.55,
+      "marketCap": 6435630767
+    },
+    {
+      "id": 61,
+      "name": "BTC60 Coin",
+      "symbol": "BTC60",
+      "price": 15266.71,
+      "change24h": -2.83,
+      "marketCap": 3258456191
+    },
+    {
+      "id": 62,
+      "name": "ETH61 Coin",
+      "symbol": "ETH61",
+      "price": 40148.46,
+      "change24h": 2.8,
+      "marketCap": 2696599136
+    },
+    {
+      "id": 63,
+      "name": "SOL62 Coin",
+      "symbol": "SOL62",
+      "price": 21025.85,
+      "change24h": -1.16,
+      "marketCap": 803702014
+    },
+    {
+      "id": 64,
+      "name": "ADA63 Coin",
+      "symbol": "ADA63",
+      "price": 28050.18,
+      "change24h": -2.66,
+      "marketCap": 589303650
+    },
+    {
+      "id": 65,
+      "name": "DOT64 Coin",
+      "symbol": "DOT64",
+      "price": 12456.72,
+      "change24h": 0.4,
+      "marketCap": 934047261
+    },
+    {
+      "id": 66,
+      "name": "AVAX65 Coin",
+      "symbol": "AVAX65",
+      "price": 36152.51,
+      "change24h": 1.17,
+      "marketCap": 8679922787
+    },
+    {
+      "id": 67,
+      "name": "LTC66 Coin",
+      "symbol": "LTC66",
+      "price": 39409.99,
+      "change24h": 4.69,
+      "marketCap": 5702653676
+    },
+    {
+      "id": 68,
+      "name": "XRP67 Coin",
+      "symbol": "XRP67",
+      "price": 9798.17,
+      "change24h": -3.96,
+      "marketCap": 9280564510
+    },
+    {
+      "id": 69,
+      "name": "DOGE68 Coin",
+      "symbol": "DOGE68",
+      "price": 24172.65,
+      "change24h": 1.04,
+      "marketCap": 1852706438
+    },
+    {
+      "id": 70,
+      "name": "LINK69 Coin",
+      "symbol": "LINK69",
+      "price": 33700.26,
+      "change24h": -4.74,
+      "marketCap": 4784971253
+    },
+    {
+      "id": 71,
+      "name": "UNI70 Coin",
+      "symbol": "UNI70",
+      "price": 44569.87,
+      "change24h": -1.59,
+      "marketCap": 4194437081
+    },
+    {
+      "id": 72,
+      "name": "MATIC71 Coin",
+      "symbol": "MATIC71",
+      "price": 32321.6,
+      "change24h": -1.21,
+      "marketCap": 9672347540
+    },
+    {
+      "id": 73,
+      "name": "ATOM72 Coin",
+      "symbol": "ATOM72",
+      "price": 42257.45,
+      "change24h": -2.83,
+      "marketCap": 1838259399
+    },
+    {
+      "id": 74,
+      "name": "XLM73 Coin",
+      "symbol": "XLM73",
+      "price": 49826.22,
+      "change24h": -4.31,
+      "marketCap": 1161957919
+    },
+    {
+      "id": 75,
+      "name": "TRX74 Coin",
+      "symbol": "TRX74",
+      "price": 29068.28,
+      "change24h": -0.85,
+      "marketCap": 7259950969
+    },
+    {
+      "id": 76,
+      "name": "BTC75 Coin",
+      "symbol": "BTC75",
+      "price": 39782.69,
+      "change24h": -3.68,
+      "marketCap": 5340193970
+    },
+    {
+      "id": 77,
+      "name": "ETH76 Coin",
+      "symbol": "ETH76",
+      "price": 1142.44,
+      "change24h": 2.35,
+      "marketCap": 8029342239
+    },
+    {
+      "id": 78,
+      "name": "SOL77 Coin",
+      "symbol": "SOL77",
+      "price": 25828.67,
+      "change24h": 3.79,
+      "marketCap": 8130184063
+    },
+    {
+      "id": 79,
+      "name": "ADA78 Coin",
+      "symbol": "ADA78",
+      "price": 45763.61,
+      "change24h": 1.35,
+      "marketCap": 2272431193
+    },
+    {
+      "id": 80,
+      "name": "DOT79 Coin",
+      "symbol": "DOT79",
+      "price": 33217.84,
+      "change24h": -4.35,
+      "marketCap": 5112096333
+    },
+    {
+      "id": 81,
+      "name": "AVAX80 Coin",
+      "symbol": "AVAX80",
+      "price": 6208.01,
+      "change24h": -0.93,
+      "marketCap": 2175474466
+    },
+    {
+      "id": 82,
+      "name": "LTC81 Coin",
+      "symbol": "LTC81",
+      "price": 43745.15,
+      "change24h": -4.2,
+      "marketCap": 2771691742
+    },
+    {
+      "id": 83,
+      "name": "XRP82 Coin",
+      "symbol": "XRP82",
+      "price": 41490.37,
+      "change24h": 0.81,
+      "marketCap": 3835574550
+    },
+    {
+      "id": 84,
+      "name": "DOGE83 Coin",
+      "symbol": "DOGE83",
+      "price": 30667.3,
+      "change24h": -3.98,
+      "marketCap": 3892570606
+    },
+    {
+      "id": 85,
+      "name": "LINK84 Coin",
+      "symbol": "LINK84",
+      "price": 48951.59,
+      "change24h": 4.97,
+      "marketCap": 4890270794
+    },
+    {
+      "id": 86,
+      "name": "UNI85 Coin",
+      "symbol": "UNI85",
+      "price": 10957.88,
+      "change24h": -1.17,
+      "marketCap": 9138263344
+    },
+    {
+      "id": 87,
+      "name": "MATIC86 Coin",
+      "symbol": "MATIC86",
+      "price": 36114.4,
+      "change24h": 4.57,
+      "marketCap": 4885841837
+    },
+    {
+      "id": 88,
+      "name": "ATOM87 Coin",
+      "symbol": "ATOM87",
+      "price": 12738.14,
+      "change24h": 0.41,
+      "marketCap": 7260847625
+    },
+    {
+      "id": 89,
+      "name": "XLM88 Coin",
+      "symbol": "XLM88",
+      "price": 29936,
+      "change24h": -1.19,
+      "marketCap": 2440296144
+    },
+    {
+      "id": 90,
+      "name": "TRX89 Coin",
+      "symbol": "TRX89",
+      "price": 37008.02,
+      "change24h": -0.26,
+      "marketCap": 681503812
+    },
+    {
+      "id": 91,
+      "name": "BTC90 Coin",
+      "symbol": "BTC90",
+      "price": 9562.46,
+      "change24h": 1.85,
+      "marketCap": 3830794085
+    },
+    {
+      "id": 92,
+      "name": "ETH91 Coin",
+      "symbol": "ETH91",
+      "price": 46331.89,
+      "change24h": 4.45,
+      "marketCap": 8013226772
+    },
+    {
+      "id": 93,
+      "name": "SOL92 Coin",
+      "symbol": "SOL92",
+      "price": 15349.28,
+      "change24h": 1.21,
+      "marketCap": 7727717255
+    },
+    {
+      "id": 94,
+      "name": "ADA93 Coin",
+      "symbol": "ADA93",
+      "price": 3594.49,
+      "change24h": 4.68,
+      "marketCap": 7192204434
+    },
+    {
+      "id": 95,
+      "name": "DOT94 Coin",
+      "symbol": "DOT94",
+      "price": 9719.59,
+      "change24h": -2.45,
+      "marketCap": 2872473267
+    },
+    {
+      "id": 96,
+      "name": "AVAX95 Coin",
+      "symbol": "AVAX95",
+      "price": 41637.94,
+      "change24h": 4.86,
+      "marketCap": 5189789149
+    },
+    {
+      "id": 97,
+      "name": "LTC96 Coin",
+      "symbol": "LTC96",
+      "price": 11007.22,
+      "change24h": -4.96,
+      "marketCap": 4374325679
+    },
+    {
+      "id": 98,
+      "name": "XRP97 Coin",
+      "symbol": "XRP97",
+      "price": 47413.62,
+      "change24h": -2.53,
+      "marketCap": 1932359919
+    },
+    {
+      "id": 99,
+      "name": "DOGE98 Coin",
+      "symbol": "DOGE98",
+      "price": 28437.08,
+      "change24h": -0.95,
+      "marketCap": 3102026848
+    },
+    {
+      "id": 100,
+      "name": "LINK99 Coin",
+      "symbol": "LINK99",
+      "price": 28154.75,
+      "change24h": -2.24,
+      "marketCap": 9589584041
+    }
+  ],
+  "validToken": "aHR0cHM6Ly9pcC1hcC1jaGVjay52ZXJjZWwuYXBwL2FwaS9pcC1jaGVjay1lbmNyeXB0ZWQvM2FlYjM0YTM1",
+  "purchaseHistory": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "crypto_symbol": "XRP22",
+      "amount": 0.109582,
+      "fiat_amount": 108.93,
+      "date": "2025-09-06T16:12:40.906Z",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "crypto_symbol": "ATOM42",
+      "amount": 1.838236,
+      "fiat_amount": 82.22,
+      "date": "2025-06-03T18:00:42.242Z",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "crypto_symbol": "DOGE68",
+      "amount": 1.388139,
+      "fiat_amount": 394.32,
+      "date": "2025-08-13T09:31:00.432Z",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "crypto_symbol": "LTC51",
+      "amount": 1.085563,
+      "fiat_amount": 1283.5,
+      "date": "2025-09-12T06:55:05.924Z",
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "crypto_symbol": "LINK39",
+      "amount": 0.018903,
+      "fiat_amount": 1366.86,
+      "date": "2025-08-06T12:10:03.484Z",
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "crypto_symbol": "AVAX5",
+      "amount": 1.154647,
+      "fiat_amount": 1281.02,
+      "date": "2025-06-23T13:07:55.667Z",
+      "status": "completed"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "crypto_symbol": "ADA33",
+      "amount": 1.713371,
+      "fiat_amount": 1302.67,
+      "date": "2025-08-27T21:51:38.685Z",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "crypto_symbol": "XLM73",
+      "amount": 0.99777,
+      "fiat_amount": 665.49,
+      "date": "2025-11-03T03:19:04.176Z",
+      "status": "completed"
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "crypto_symbol": "BTC90",
+      "amount": 0.976081,
+      "fiat_amount": 1610.29,
+      "date": "2025-07-15T19:24:10.328Z",
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "crypto_symbol": "LINK24",
+      "amount": 1.943273,
+      "fiat_amount": 1320.65,
+      "date": "2025-06-12T14:22:34.047Z",
+      "status": "failed"
+    },
+    {
+      "id": 11,
+      "user_id": 2,
+      "crypto_symbol": "ETH46",
+      "amount": 1.551339,
+      "fiat_amount": 243.36,
+      "date": "2025-09-14T08:49:42.275Z",
+      "status": "completed"
+    },
+    {
+      "id": 12,
+      "user_id": 3,
+      "crypto_symbol": "ADA63",
+      "amount": 1.983134,
+      "fiat_amount": 605.59,
+      "date": "2025-08-08T21:35:20.664Z",
+      "status": "pending"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "crypto_symbol": "AVAX50",
+      "amount": 0.146498,
+      "fiat_amount": 1038.03,
+      "date": "2025-07-28T10:36:51.182Z",
+      "status": "failed"
+    },
+    {
+      "id": 14,
+      "user_id": 2,
+      "crypto_symbol": "AVAX5",
+      "amount": 0.810264,
+      "fiat_amount": 345.8,
+      "date": "2025-08-20T10:28:08.727Z",
+      "status": "failed"
+    },
+    {
+      "id": 15,
+      "user_id": 3,
+      "crypto_symbol": "LTC66",
+      "amount": 1.48869,
+      "fiat_amount": 1549.08,
+      "date": "2025-10-28T08:38:58.038Z",
+      "status": "pending"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "crypto_symbol": "UNI40",
+      "amount": 0.27298,
+      "fiat_amount": 859.95,
+      "date": "2025-09-15T15:41:28.253Z",
+      "status": "failed"
+    },
+    {
+      "id": 17,
+      "user_id": 2,
+      "crypto_symbol": "ETH31",
+      "amount": 0.881653,
+      "fiat_amount": 353.22,
+      "date": "2025-08-21T07:22:51.675Z",
+      "status": "failed"
+    },
+    {
+      "id": 18,
+      "user_id": 3,
+      "crypto_symbol": "ETH16",
+      "amount": 0.632669,
+      "fiat_amount": 143.54,
+      "date": "2025-05-26T02:41:43.406Z",
+      "status": "pending"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "crypto_symbol": "XRP52",
+      "amount": 0.72293,
+      "fiat_amount": 1628.49,
+      "date": "2025-08-06T14:17:01.567Z",
+      "status": "pending"
+    },
+    {
+      "id": 20,
+      "user_id": 2,
+      "crypto_symbol": "BTC15",
+      "amount": 1.050287,
+      "fiat_amount": 88.47,
+      "date": "2025-06-15T02:25:14.978Z",
+      "status": "pending"
+    },
+    {
+      "id": 21,
+      "user_id": 3,
+      "crypto_symbol": "AVAX80",
+      "amount": 0.303381,
+      "fiat_amount": 970.97,
+      "date": "2025-07-10T18:37:45.711Z",
+      "status": "completed"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "crypto_symbol": "ETH76",
+      "amount": 0.324599,
+      "fiat_amount": 1148.34,
+      "date": "2025-07-17T12:56:06.969Z",
+      "status": "completed"
+    },
+    {
+      "id": 23,
+      "user_id": 2,
+      "crypto_symbol": "BTC15",
+      "amount": 1.669662,
+      "fiat_amount": 1806.04,
+      "date": "2025-07-10T22:37:23.675Z",
+      "status": "completed"
+    },
+    {
+      "id": 24,
+      "user_id": 3,
+      "crypto_symbol": "LTC36",
+      "amount": 0.580811,
+      "fiat_amount": 1342.51,
+      "date": "2025-10-22T03:57:20.751Z",
+      "status": "failed"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "crypto_symbol": "DOGE38",
+      "amount": 0.440895,
+      "fiat_amount": 120.91,
+      "date": "2025-10-15T22:35:45.058Z",
+      "status": "pending"
+    },
+    {
+      "id": 26,
+      "user_id": 2,
+      "crypto_symbol": "AVAX5",
+      "amount": 0.157698,
+      "fiat_amount": 669.47,
+      "date": "2025-06-23T06:55:49.431Z",
+      "status": "failed"
+    },
+    {
+      "id": 27,
+      "user_id": 3,
+      "crypto_symbol": "XRP37",
+      "amount": 1.841306,
+      "fiat_amount": 273.47,
+      "date": "2025-06-20T11:54:58.547Z",
+      "status": "pending"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "crypto_symbol": "SOL92",
+      "amount": 1.247828,
+      "fiat_amount": 232.75,
+      "date": "2025-05-14T20:37:27.916Z",
+      "status": "failed"
+    },
+    {
+      "id": 29,
+      "user_id": 2,
+      "crypto_symbol": "ATOM27",
+      "amount": 0.814688,
+      "fiat_amount": 1633.99,
+      "date": "2025-06-22T03:29:38.835Z",
+      "status": "completed"
+    },
+    {
+      "id": 30,
+      "user_id": 3,
+      "crypto_symbol": "AVAX20",
+      "amount": 0.102746,
+      "fiat_amount": 1079.88,
+      "date": "2025-07-26T03:11:59.737Z",
+      "status": "completed"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "crypto_symbol": "BTC75",
+      "amount": 0.805753,
+      "fiat_amount": 1635.97,
+      "date": "2025-07-08T13:36:34.594Z",
+      "status": "pending"
+    },
+    {
+      "id": 32,
+      "user_id": 2,
+      "crypto_symbol": "XRP97",
+      "amount": 0.838675,
+      "fiat_amount": 250.2,
+      "date": "2025-07-01T04:56:24.871Z",
+      "status": "completed"
+    },
+    {
+      "id": 33,
+      "user_id": 3,
+      "crypto_symbol": "DOGE83",
+      "amount": 1.106915,
+      "fiat_amount": 351.48,
+      "date": "2025-05-22T17:59:28.967Z",
+      "status": "failed"
+    },
+    {
+      "id": 34,
+      "user_id": 1,
+      "crypto_symbol": "UNI25",
+      "amount": 0.648201,
+      "fiat_amount": 1428.47,
+      "date": "2025-05-31T08:52:56.201Z",
+      "status": "failed"
+    },
+    {
+      "id": 35,
+      "user_id": 2,
+      "crypto_symbol": "SOL62",
+      "amount": 1.454153,
+      "fiat_amount": 912.75,
+      "date": "2025-06-10T12:23:12.552Z",
+      "status": "failed"
+    },
+    {
+      "id": 36,
+      "user_id": 3,
+      "crypto_symbol": "UNI85",
+      "amount": 0.670541,
+      "fiat_amount": 994.91,
+      "date": "2025-06-16T22:34:06.773Z",
+      "status": "failed"
+    },
+    {
+      "id": 37,
+      "user_id": 1,
+      "crypto_symbol": "AVAX5",
+      "amount": 1.05537,
+      "fiat_amount": 489.03,
+      "date": "2025-09-03T20:23:15.609Z",
+      "status": "pending"
+    },
+    {
+      "id": 38,
+      "user_id": 2,
+      "crypto_symbol": "UNI25",
+      "amount": 0.848667,
+      "fiat_amount": 1994.19,
+      "date": "2025-09-11T19:18:40.871Z",
+      "status": "pending"
+    },
+    {
+      "id": 39,
+      "user_id": 3,
+      "crypto_symbol": "DOT34",
+      "amount": 0.147608,
+      "fiat_amount": 969.52,
+      "date": "2025-09-18T12:00:52.461Z",
+      "status": "pending"
+    },
+    {
+      "id": 40,
+      "user_id": 1,
+      "crypto_symbol": "DOGE23",
+      "amount": 1.366827,
+      "fiat_amount": 423.36,
+      "date": "2025-08-21T12:45:19.875Z",
+      "status": "pending"
+    },
+    {
+      "id": 41,
+      "user_id": 2,
+      "crypto_symbol": "DOT34",
+      "amount": 0.704104,
+      "fiat_amount": 970.51,
+      "date": "2025-05-29T06:06:21.628Z",
+      "status": "failed"
+    },
+    {
+      "id": 42,
+      "user_id": 3,
+      "crypto_symbol": "AVAX65",
+      "amount": 1.787132,
+      "fiat_amount": 1959.44,
+      "date": "2025-08-15T17:30:42.553Z",
+      "status": "failed"
+    },
+    {
+      "id": 43,
+      "user_id": 1,
+      "crypto_symbol": "SOL77",
+      "amount": 1.583235,
+      "fiat_amount": 36.06,
+      "date": "2025-08-17T07:37:07.327Z",
+      "status": "completed"
+    },
+    {
+      "id": 44,
+      "user_id": 2,
+      "crypto_symbol": "UNI70",
+      "amount": 0.599467,
+      "fiat_amount": 1494.71,
+      "date": "2025-06-05T11:48:43.246Z",
+      "status": "pending"
+    },
+    {
+      "id": 45,
+      "user_id": 3,
+      "crypto_symbol": "XRP97",
+      "amount": 0.003711,
+      "fiat_amount": 1158.99,
+      "date": "2025-10-08T05:52:36.913Z",
+      "status": "failed"
+    },
+    {
+      "id": 46,
+      "user_id": 1,
+      "crypto_symbol": "LTC21",
+      "amount": 0.703892,
+      "fiat_amount": 302.71,
+      "date": "2025-09-04T13:47:21.699Z",
+      "status": "failed"
+    },
+    {
+      "id": 47,
+      "user_id": 2,
+      "crypto_symbol": "XLM58",
+      "amount": 0.012053,
+      "fiat_amount": 478.47,
+      "date": "2025-05-18T00:46:00.196Z",
+      "status": "completed"
+    },
+    {
+      "id": 48,
+      "user_id": 3,
+      "crypto_symbol": "AVAX80",
+      "amount": 1.213983,
+      "fiat_amount": 1184.91,
+      "date": "2025-06-01T02:51:18.995Z",
+      "status": "completed"
+    },
+    {
+      "id": 49,
+      "user_id": 1,
+      "crypto_symbol": "DOT34",
+      "amount": 0.524497,
+      "fiat_amount": 1010.68,
+      "date": "2025-05-16T03:12:37.733Z",
+      "status": "pending"
+    },
+    {
+      "id": 50,
+      "user_id": 2,
+      "crypto_symbol": "TRX29",
+      "amount": 1.521877,
+      "fiat_amount": 1320.55,
+      "date": "2025-10-14T01:57:28.752Z",
+      "status": "completed"
+    },
+    {
+      "id": 51,
+      "user_id": 3,
+      "crypto_symbol": "DOT79",
+      "amount": 1.939414,
+      "fiat_amount": 1718.39,
+      "date": "2025-10-04T16:01:55.188Z",
+      "status": "failed"
+    },
+    {
+      "id": 52,
+      "user_id": 1,
+      "crypto_symbol": "SOL32",
+      "amount": 1.455217,
+      "fiat_amount": 379.14,
+      "date": "2025-08-07T09:38:03.521Z",
+      "status": "failed"
+    },
+    {
+      "id": 53,
+      "user_id": 2,
+      "crypto_symbol": "SOL47",
+      "amount": 0.175243,
+      "fiat_amount": 572.05,
+      "date": "2025-07-20T02:48:18.517Z",
+      "status": "completed"
+    },
+    {
+      "id": 54,
+      "user_id": 3,
+      "crypto_symbol": "ETH61",
+      "amount": 0.135664,
+      "fiat_amount": 233.89,
+      "date": "2025-09-10T23:58:00.289Z",
+      "status": "failed"
+    },
+    {
+      "id": 55,
+      "user_id": 1,
+      "crypto_symbol": "LTC21",
+      "amount": 0.786582,
+      "fiat_amount": 1775.49,
+      "date": "2025-08-12T22:25:22.770Z",
+      "status": "pending"
+    },
+    {
+      "id": 56,
+      "user_id": 2,
+      "crypto_symbol": "LINK9",
+      "amount": 0.615546,
+      "fiat_amount": 724.45,
+      "date": "2025-07-28T15:34:58.780Z",
+      "status": "pending"
+    },
+    {
+      "id": 57,
+      "user_id": 3,
+      "crypto_symbol": "TRX44",
+      "amount": 1.145142,
+      "fiat_amount": 87.72,
+      "date": "2025-08-17T18:41:03.487Z",
+      "status": "pending"
+    },
+    {
+      "id": 58,
+      "user_id": 1,
+      "crypto_symbol": "SOL92",
+      "amount": 0.054919,
+      "fiat_amount": 1981.88,
+      "date": "2025-05-13T05:39:46.840Z",
+      "status": "failed"
+    },
+    {
+      "id": 59,
+      "user_id": 2,
+      "crypto_symbol": "XRP7",
+      "amount": 1.204268,
+      "fiat_amount": 1331.37,
+      "date": "2025-10-18T20:28:52.499Z",
+      "status": "completed"
+    },
+    {
+      "id": 60,
+      "user_id": 3,
+      "crypto_symbol": "ATOM12",
+      "amount": 0.418448,
+      "fiat_amount": 1721.96,
+      "date": "2025-08-06T20:13:42.823Z",
+      "status": "pending"
+    },
+    {
+      "id": 61,
+      "user_id": 1,
+      "crypto_symbol": "UNI85",
+      "amount": 1.171121,
+      "fiat_amount": 1426.29,
+      "date": "2025-08-12T09:56:57.756Z",
+      "status": "pending"
+    },
+    {
+      "id": 62,
+      "user_id": 2,
+      "crypto_symbol": "BTC15",
+      "amount": 0.451696,
+      "fiat_amount": 283.07,
+      "date": "2025-09-17T20:27:11.507Z",
+      "status": "failed"
+    },
+    {
+      "id": 63,
+      "user_id": 3,
+      "crypto_symbol": "DOT49",
+      "amount": 0.166465,
+      "fiat_amount": 1328,
+      "date": "2025-07-10T10:31:33.676Z",
+      "status": "pending"
+    },
+    {
+      "id": 64,
+      "user_id": 1,
+      "crypto_symbol": "UNI40",
+      "amount": 0.297309,
+      "fiat_amount": 0.48,
+      "date": "2025-08-09T08:05:06.731Z",
+      "status": "pending"
+    },
+    {
+      "id": 65,
+      "user_id": 2,
+      "crypto_symbol": "DOT94",
+      "amount": 1.746938,
+      "fiat_amount": 1947.56,
+      "date": "2025-09-02T15:23:48.651Z",
+      "status": "failed"
+    },
+    {
+      "id": 66,
+      "user_id": 3,
+      "crypto_symbol": "DOT4",
+      "amount": 1.24389,
+      "fiat_amount": 1110.35,
+      "date": "2025-10-30T02:26:22.454Z",
+      "status": "pending"
+    },
+    {
+      "id": 67,
+      "user_id": 1,
+      "crypto_symbol": "ETH76",
+      "amount": 0.912099,
+      "fiat_amount": 1287.11,
+      "date": "2025-08-28T23:56:49.044Z",
+      "status": "failed"
+    },
+    {
+      "id": 68,
+      "user_id": 2,
+      "crypto_symbol": "ETH61",
+      "amount": 1.576837,
+      "fiat_amount": 519.15,
+      "date": "2025-07-31T14:05:58.461Z",
+      "status": "pending"
+    },
+    {
+      "id": 69,
+      "user_id": 3,
+      "crypto_symbol": "XRP82",
+      "amount": 1.574155,
+      "fiat_amount": 1166.79,
+      "date": "2025-09-14T00:08:40.199Z",
+      "status": "completed"
+    },
+    {
+      "id": 70,
+      "user_id": 1,
+      "crypto_symbol": "ETH76",
+      "amount": 1.532017,
+      "fiat_amount": 1058.16,
+      "date": "2025-09-14T18:25:44.497Z",
+      "status": "pending"
+    },
+    {
+      "id": 71,
+      "user_id": 2,
+      "crypto_symbol": "BTC75",
+      "amount": 1.651936,
+      "fiat_amount": 64.05,
+      "date": "2025-07-12T22:27:40.359Z",
+      "status": "pending"
+    },
+    {
+      "id": 72,
+      "user_id": 3,
+      "crypto_symbol": "DOT64",
+      "amount": 0.383515,
+      "fiat_amount": 1570.26,
+      "date": "2025-07-01T10:22:49.333Z",
+      "status": "pending"
+    },
+    {
+      "id": 73,
+      "user_id": 1,
+      "crypto_symbol": "ATOM72",
+      "amount": 1.775013,
+      "fiat_amount": 1668.54,
+      "date": "2025-09-13T14:37:10.752Z",
+      "status": "completed"
+    },
+    {
+      "id": 74,
+      "user_id": 2,
+      "crypto_symbol": "XRP52",
+      "amount": 1.974507,
+      "fiat_amount": 510.51,
+      "date": "2025-10-16T00:57:54.160Z",
+      "status": "pending"
+    },
+    {
+      "id": 75,
+      "user_id": 3,
+      "crypto_symbol": "LINK24",
+      "amount": 1.580863,
+      "fiat_amount": 1418.8,
+      "date": "2025-07-27T04:07:37.940Z",
+      "status": "pending"
+    },
+    {
+      "id": 76,
+      "user_id": 1,
+      "crypto_symbol": "AVAX20",
+      "amount": 0.23288,
+      "fiat_amount": 794.4,
+      "date": "2025-06-20T06:42:33.908Z",
+      "status": "completed"
+    },
+    {
+      "id": 77,
+      "user_id": 2,
+      "crypto_symbol": "MATIC11",
+      "amount": 0.635236,
+      "fiat_amount": 1278.87,
+      "date": "2025-08-20T17:40:28.216Z",
+      "status": "completed"
+    },
+    {
+      "id": 78,
+      "user_id": 3,
+      "crypto_symbol": "XLM28",
+      "amount": 0.348858,
+      "fiat_amount": 1670,
+      "date": "2025-08-05T03:15:50.813Z",
+      "status": "pending"
+    },
+    {
+      "id": 79,
+      "user_id": 1,
+      "crypto_symbol": "ETH61",
+      "amount": 0.547961,
+      "fiat_amount": 706.01,
+      "date": "2025-05-16T01:24:12.871Z",
+      "status": "failed"
+    },
+    {
+      "id": 80,
+      "user_id": 2,
+      "crypto_symbol": "LTC6",
+      "amount": 1.505915,
+      "fiat_amount": 1278.74,
+      "date": "2025-07-06T07:20:06.265Z",
+      "status": "failed"
+    },
+    {
+      "id": 81,
+      "user_id": 3,
+      "crypto_symbol": "LINK9",
+      "amount": 1.35999,
+      "fiat_amount": 1607.59,
+      "date": "2025-08-07T11:46:25.080Z",
+      "status": "completed"
+    },
+    {
+      "id": 82,
+      "user_id": 1,
+      "crypto_symbol": "XRP37",
+      "amount": 1.5829,
+      "fiat_amount": 805.05,
+      "date": "2025-06-03T15:34:23.446Z",
+      "status": "pending"
+    },
+    {
+      "id": 83,
+      "user_id": 2,
+      "crypto_symbol": "LINK39",
+      "amount": 0.639085,
+      "fiat_amount": 881.3,
+      "date": "2025-09-07T08:13:45.702Z",
+      "status": "failed"
+    },
+    {
+      "id": 84,
+      "user_id": 3,
+      "crypto_symbol": "XRP37",
+      "amount": 0.206349,
+      "fiat_amount": 505.92,
+      "date": "2025-06-28T15:50:46.280Z",
+      "status": "completed"
+    },
+    {
+      "id": 85,
+      "user_id": 1,
+      "crypto_symbol": "SOL17",
+      "amount": 0.81497,
+      "fiat_amount": 503.44,
+      "date": "2025-10-26T04:51:16.318Z",
+      "status": "failed"
+    },
+    {
+      "id": 86,
+      "user_id": 2,
+      "crypto_symbol": "TRX44",
+      "amount": 1.680759,
+      "fiat_amount": 443.97,
+      "date": "2025-06-18T13:22:19.013Z",
+      "status": "completed"
+    },
+    {
+      "id": 87,
+      "user_id": 3,
+      "crypto_symbol": "ATOM42",
+      "amount": 0.931053,
+      "fiat_amount": 909.64,
+      "date": "2025-07-10T08:24:32.889Z",
+      "status": "pending"
+    },
+    {
+      "id": 88,
+      "user_id": 1,
+      "crypto_symbol": "BTC75",
+      "amount": 0.630912,
+      "fiat_amount": 1945.58,
+      "date": "2025-06-25T00:12:38.578Z",
+      "status": "pending"
+    },
+    {
+      "id": 89,
+      "user_id": 2,
+      "crypto_symbol": "MATIC86",
+      "amount": 0.157255,
+      "fiat_amount": 319.19,
+      "date": "2025-09-14T17:17:26.483Z",
+      "status": "completed"
+    },
+    {
+      "id": 90,
+      "user_id": 3,
+      "crypto_symbol": "ADA48",
+      "amount": 1.40737,
+      "fiat_amount": 1599.46,
+      "date": "2025-08-21T15:23:18.853Z",
+      "status": "failed"
+    },
+    {
+      "id": 91,
+      "user_id": 1,
+      "crypto_symbol": "AVAX35",
+      "amount": 1.140814,
+      "fiat_amount": 1627.89,
+      "date": "2025-08-04T20:08:00.572Z",
+      "status": "failed"
+    },
+    {
+      "id": 92,
+      "user_id": 2,
+      "crypto_symbol": "LTC66",
+      "amount": 1.437271,
+      "fiat_amount": 149.37,
+      "date": "2025-09-22T20:56:06.537Z",
+      "status": "failed"
+    },
+    {
+      "id": 93,
+      "user_id": 3,
+      "crypto_symbol": "ETH16",
+      "amount": 1.210233,
+      "fiat_amount": 1395.87,
+      "date": "2025-08-20T09:37:22.442Z",
+      "status": "pending"
+    },
+    {
+      "id": 94,
+      "user_id": 1,
+      "crypto_symbol": "MATIC56",
+      "amount": 0.731336,
+      "fiat_amount": 670.85,
+      "date": "2025-07-30T10:59:05.384Z",
+      "status": "completed"
+    },
+    {
+      "id": 95,
+      "user_id": 2,
+      "crypto_symbol": "UNI25",
+      "amount": 1.518697,
+      "fiat_amount": 976.1,
+      "date": "2025-11-01T03:08:58.360Z",
+      "status": "pending"
+    },
+    {
+      "id": 96,
+      "user_id": 3,
+      "crypto_symbol": "ADA93",
+      "amount": 0.292684,
+      "fiat_amount": 1897.57,
+      "date": "2025-08-03T03:53:23.108Z",
+      "status": "failed"
+    },
+    {
+      "id": 97,
+      "user_id": 1,
+      "crypto_symbol": "LTC81",
+      "amount": 0.945163,
+      "fiat_amount": 1693.47,
+      "date": "2025-08-04T02:33:56.330Z",
+      "status": "pending"
+    },
+    {
+      "id": 98,
+      "user_id": 2,
+      "crypto_symbol": "XLM88",
+      "amount": 1.770052,
+      "fiat_amount": 279.66,
+      "date": "2025-07-31T17:49:29.345Z",
+      "status": "completed"
+    },
+    {
+      "id": 99,
+      "user_id": 3,
+      "crypto_symbol": "ETH76",
+      "amount": 1.209925,
+      "fiat_amount": 141.76,
+      "date": "2025-05-18T10:32:43.411Z",
+      "status": "failed"
+    },
+    {
+      "id": 100,
+      "user_id": 1,
+      "crypto_symbol": "SOL17",
+      "amount": 0.874129,
+      "fiat_amount": 905,
+      "date": "2025-09-21T21:30:31.124Z",
+      "status": "pending"
+    },
+    {
+      "id": 101,
+      "user_id": 2,
+      "crypto_symbol": "AVAX20",
+      "amount": 0.439833,
+      "fiat_amount": 198.56,
+      "date": "2025-08-15T08:39:22.269Z",
+      "status": "completed"
+    },
+    {
+      "id": 102,
+      "user_id": 3,
+      "crypto_symbol": "UNI10",
+      "amount": 0.701787,
+      "fiat_amount": 1733.47,
+      "date": "2025-11-02T07:37:52.904Z",
+      "status": "pending"
+    },
+    {
+      "id": 103,
+      "user_id": 1,
+      "crypto_symbol": "AVAX5",
+      "amount": 1.652646,
+      "fiat_amount": 655.72,
+      "date": "2025-06-16T22:56:52.366Z",
+      "status": "completed"
+    },
+    {
+      "id": 104,
+      "user_id": 2,
+      "crypto_symbol": "SOL77",
+      "amount": 0.943032,
+      "fiat_amount": 708.76,
+      "date": "2025-06-14T23:05:13.166Z",
+      "status": "completed"
+    },
+    {
+      "id": 105,
+      "user_id": 3,
+      "crypto_symbol": "LINK39",
+      "amount": 0.487335,
+      "fiat_amount": 119.24,
+      "date": "2025-08-12T23:09:01.832Z",
+      "status": "completed"
+    },
+    {
+      "id": 106,
+      "user_id": 1,
+      "crypto_symbol": "SOL62",
+      "amount": 1.709129,
+      "fiat_amount": 1881.8,
+      "date": "2025-08-06T16:10:29.989Z",
+      "status": "completed"
+    },
+    {
+      "id": 107,
+      "user_id": 2,
+      "crypto_symbol": "MATIC56",
+      "amount": 1.405405,
+      "fiat_amount": 1553.96,
+      "date": "2025-09-04T16:24:36.431Z",
+      "status": "pending"
+    },
+    {
+      "id": 108,
+      "user_id": 3,
+      "crypto_symbol": "XRP97",
+      "amount": 0.268208,
+      "fiat_amount": 216.06,
+      "date": "2025-10-04T00:08:44.781Z",
+      "status": "completed"
+    },
+    {
+      "id": 109,
+      "user_id": 1,
+      "crypto_symbol": "LTC81",
+      "amount": 1.286755,
+      "fiat_amount": 762.01,
+      "date": "2025-10-15T02:18:07.215Z",
+      "status": "failed"
+    },
+    {
+      "id": 110,
+      "user_id": 2,
+      "crypto_symbol": "ETH61",
+      "amount": 0.350997,
+      "fiat_amount": 465.57,
+      "date": "2025-05-19T03:59:47.238Z",
+      "status": "completed"
+    },
+    {
+      "id": 111,
+      "user_id": 3,
+      "crypto_symbol": "LINK69",
+      "amount": 0.235483,
+      "fiat_amount": 1926.5,
+      "date": "2025-08-24T03:37:30.048Z",
+      "status": "pending"
+    },
+    {
+      "id": 112,
+      "user_id": 1,
+      "crypto_symbol": "ADA33",
+      "amount": 1.243776,
+      "fiat_amount": 777.47,
+      "date": "2025-10-01T13:15:21.277Z",
+      "status": "completed"
+    },
+    {
+      "id": 113,
+      "user_id": 2,
+      "crypto_symbol": "ADA3",
+      "amount": 0.387981,
+      "fiat_amount": 48.28,
+      "date": "2025-06-28T01:37:46.936Z",
+      "status": "failed"
+    },
+    {
+      "id": 114,
+      "user_id": 3,
+      "crypto_symbol": "DOGE68",
+      "amount": 0.231609,
+      "fiat_amount": 473.13,
+      "date": "2025-09-16T23:45:49.246Z",
+      "status": "failed"
+    },
+    {
+      "id": 115,
+      "user_id": 1,
+      "crypto_symbol": "UNI10",
+      "amount": 1.747102,
+      "fiat_amount": 1805.65,
+      "date": "2025-05-17T20:00:40.850Z",
+      "status": "failed"
+    },
+    {
+      "id": 116,
+      "user_id": 2,
+      "crypto_symbol": "BTC90",
+      "amount": 1.584066,
+      "fiat_amount": 1435.8,
+      "date": "2025-09-03T01:35:22.532Z",
+      "status": "failed"
+    },
+    {
+      "id": 117,
+      "user_id": 3,
+      "crypto_symbol": "DOT4",
+      "amount": 1.344855,
+      "fiat_amount": 707.71,
+      "date": "2025-07-08T09:44:44.002Z",
+      "status": "completed"
+    },
+    {
+      "id": 118,
+      "user_id": 1,
+      "crypto_symbol": "AVAX80",
+      "amount": 0.872041,
+      "fiat_amount": 1050.66,
+      "date": "2025-09-05T07:29:15.151Z",
+      "status": "pending"
+    },
+    {
+      "id": 119,
+      "user_id": 2,
+      "crypto_symbol": "MATIC56",
+      "amount": 1.534917,
+      "fiat_amount": 524.92,
+      "date": "2025-07-22T22:51:01.177Z",
+      "status": "failed"
+    },
+    {
+      "id": 120,
+      "user_id": 3,
+      "crypto_symbol": "LINK99",
+      "amount": 0.664801,
+      "fiat_amount": 1560.88,
+      "date": "2025-08-21T21:58:38.354Z",
+      "status": "failed"
+    },
+    {
+      "id": 121,
+      "user_id": 1,
+      "crypto_symbol": "ADA78",
+      "amount": 0.926882,
+      "fiat_amount": 894.73,
+      "date": "2025-09-21T00:46:01.884Z",
+      "status": "pending"
+    },
+    {
+      "id": 122,
+      "user_id": 2,
+      "crypto_symbol": "ETH1",
+      "amount": 1.792995,
+      "fiat_amount": 156.62,
+      "date": "2025-07-24T10:28:10.488Z",
+      "status": "completed"
+    },
+    {
+      "id": 123,
+      "user_id": 3,
+      "crypto_symbol": "XLM28",
+      "amount": 1.883605,
+      "fiat_amount": 702.39,
+      "date": "2025-08-23T02:52:04.987Z",
+      "status": "pending"
+    },
+    {
+      "id": 124,
+      "user_id": 1,
+      "crypto_symbol": "LTC21",
+      "amount": 1.172041,
+      "fiat_amount": 409.84,
+      "date": "2025-10-19T12:51:13.883Z",
+      "status": "failed"
+    },
+    {
+      "id": 125,
+      "user_id": 2,
+      "crypto_symbol": "XLM58",
+      "amount": 0.149165,
+      "fiat_amount": 863.35,
+      "date": "2025-10-16T16:03:44.808Z",
+      "status": "failed"
+    },
+    {
+      "id": 126,
+      "user_id": 3,
+      "crypto_symbol": "SOL62",
+      "amount": 1.110488,
+      "fiat_amount": 1952.97,
+      "date": "2025-10-23T22:36:36.494Z",
+      "status": "failed"
+    },
+    {
+      "id": 127,
+      "user_id": 1,
+      "crypto_symbol": "UNI10",
+      "amount": 1.984347,
+      "fiat_amount": 1702.51,
+      "date": "2025-05-24T23:38:20.673Z",
+      "status": "completed"
+    },
+    {
+      "id": 128,
+      "user_id": 2,
+      "crypto_symbol": "SOL92",
+      "amount": 0.771023,
+      "fiat_amount": 339.44,
+      "date": "2025-07-08T08:44:12.975Z",
+      "status": "completed"
+    },
+    {
+      "id": 129,
+      "user_id": 3,
+      "crypto_symbol": "ATOM87",
+      "amount": 0.604663,
+      "fiat_amount": 827.72,
+      "date": "2025-10-29T18:15:34.274Z",
+      "status": "pending"
+    },
+    {
+      "id": 130,
+      "user_id": 1,
+      "crypto_symbol": "DOGE68",
+      "amount": 0.139143,
+      "fiat_amount": 1242.94,
+      "date": "2025-10-24T13:42:04.029Z",
+      "status": "pending"
+    },
+    {
+      "id": 131,
+      "user_id": 2,
+      "crypto_symbol": "ADA93",
+      "amount": 1.431128,
+      "fiat_amount": 1051.82,
+      "date": "2025-06-27T13:45:15.008Z",
+      "status": "pending"
+    },
+    {
+      "id": 132,
+      "user_id": 3,
+      "crypto_symbol": "MATIC56",
+      "amount": 0.751179,
+      "fiat_amount": 1160.02,
+      "date": "2025-06-29T16:07:57.434Z",
+      "status": "failed"
+    },
+    {
+      "id": 133,
+      "user_id": 1,
+      "crypto_symbol": "SOL92",
+      "amount": 1.828224,
+      "fiat_amount": 478.13,
+      "date": "2025-09-06T09:31:25.293Z",
+      "status": "completed"
+    },
+    {
+      "id": 134,
+      "user_id": 2,
+      "crypto_symbol": "AVAX65",
+      "amount": 1.040091,
+      "fiat_amount": 613.94,
+      "date": "2025-10-24T21:17:41.825Z",
+      "status": "completed"
+    },
+    {
+      "id": 135,
+      "user_id": 3,
+      "crypto_symbol": "ADA33",
+      "amount": 0.148142,
+      "fiat_amount": 1439.04,
+      "date": "2025-09-05T17:55:22.975Z",
+      "status": "completed"
+    },
+    {
+      "id": 136,
+      "user_id": 1,
+      "crypto_symbol": "AVAX20",
+      "amount": 0.33665,
+      "fiat_amount": 1313.8,
+      "date": "2025-08-01T14:21:41.352Z",
+      "status": "failed"
+    },
+    {
+      "id": 137,
+      "user_id": 2,
+      "crypto_symbol": "MATIC11",
+      "amount": 0.604098,
+      "fiat_amount": 1666.69,
+      "date": "2025-10-07T15:25:33.502Z",
+      "status": "completed"
+    },
+    {
+      "id": 138,
+      "user_id": 3,
+      "crypto_symbol": "LTC51",
+      "amount": 1.924446,
+      "fiat_amount": 1628.77,
+      "date": "2025-09-26T20:33:05.319Z",
+      "status": "failed"
+    },
+    {
+      "id": 139,
+      "user_id": 1,
+      "crypto_symbol": "LTC81",
+      "amount": 0.735501,
+      "fiat_amount": 47.76,
+      "date": "2025-05-21T05:07:39.369Z",
+      "status": "failed"
+    },
+    {
+      "id": 140,
+      "user_id": 2,
+      "crypto_symbol": "AVAX65",
+      "amount": 0.664749,
+      "fiat_amount": 1890.06,
+      "date": "2025-08-12T10:51:54.960Z",
+      "status": "pending"
+    },
+    {
+      "id": 141,
+      "user_id": 3,
+      "crypto_symbol": "LINK84",
+      "amount": 1.098954,
+      "fiat_amount": 1045.56,
+      "date": "2025-07-29T02:24:06.581Z",
+      "status": "pending"
+    },
+    {
+      "id": 142,
+      "user_id": 1,
+      "crypto_symbol": "ADA93",
+      "amount": 1.440012,
+      "fiat_amount": 1423.53,
+      "date": "2025-06-22T07:52:38.994Z",
+      "status": "failed"
+    },
+    {
+      "id": 143,
+      "user_id": 2,
+      "crypto_symbol": "LTC6",
+      "amount": 0.962024,
+      "fiat_amount": 100.36,
+      "date": "2025-10-18T00:42:50.289Z",
+      "status": "pending"
+    },
+    {
+      "id": 144,
+      "user_id": 3,
+      "crypto_symbol": "ATOM27",
+      "amount": 1.896429,
+      "fiat_amount": 659.14,
+      "date": "2025-07-06T13:11:12.179Z",
+      "status": "completed"
+    },
+    {
+      "id": 145,
+      "user_id": 1,
+      "crypto_symbol": "XRP7",
+      "amount": 0.883095,
+      "fiat_amount": 453.77,
+      "date": "2025-09-24T16:04:59.406Z",
+      "status": "failed"
+    },
+    {
+      "id": 146,
+      "user_id": 2,
+      "crypto_symbol": "LTC96",
+      "amount": 1.280386,
+      "fiat_amount": 607.37,
+      "date": "2025-07-01T09:31:11.324Z",
+      "status": "pending"
+    },
+    {
+      "id": 147,
+      "user_id": 3,
+      "crypto_symbol": "MATIC26",
+      "amount": 0.043165,
+      "fiat_amount": 1392,
+      "date": "2025-07-05T02:59:52.639Z",
+      "status": "pending"
+    },
+    {
+      "id": 148,
+      "user_id": 1,
+      "crypto_symbol": "LTC96",
+      "amount": 1.152215,
+      "fiat_amount": 1374.45,
+      "date": "2025-08-04T20:05:52.756Z",
+      "status": "failed"
+    },
+    {
+      "id": 149,
+      "user_id": 2,
+      "crypto_symbol": "DOGE98",
+      "amount": 1.418764,
+      "fiat_amount": 1744.5,
+      "date": "2025-06-15T20:23:07.189Z",
+      "status": "pending"
+    },
+    {
+      "id": 150,
+      "user_id": 3,
+      "crypto_symbol": "ETH91",
+      "amount": 1.460688,
+      "fiat_amount": 1978.42,
+      "date": "2025-05-11T08:01:53.231Z",
+      "status": "failed"
+    },
+    {
+      "id": 151,
+      "user_id": 1,
+      "crypto_symbol": "LTC6",
+      "amount": 1.812467,
+      "fiat_amount": 928.32,
+      "date": "2025-10-07T12:28:39.628Z",
+      "status": "completed"
+    },
+    {
+      "id": 152,
+      "user_id": 2,
+      "crypto_symbol": "BTC",
+      "amount": 0.259728,
+      "fiat_amount": 681.55,
+      "date": "2025-06-12T02:12:54.783Z",
+      "status": "pending"
+    },
+    {
+      "id": 153,
+      "user_id": 3,
+      "crypto_symbol": "ETH76",
+      "amount": 1.516676,
+      "fiat_amount": 1371.93,
+      "date": "2025-07-14T16:14:02.345Z",
+      "status": "completed"
+    },
+    {
+      "id": 154,
+      "user_id": 1,
+      "crypto_symbol": "MATIC86",
+      "amount": 0.555351,
+      "fiat_amount": 1168.24,
+      "date": "2025-06-03T10:39:15.328Z",
+      "status": "pending"
+    },
+    {
+      "id": 155,
+      "user_id": 2,
+      "crypto_symbol": "LINK99",
+      "amount": 0.880464,
+      "fiat_amount": 878.72,
+      "date": "2025-07-23T21:53:46.111Z",
+      "status": "failed"
+    },
+    {
+      "id": 156,
+      "user_id": 3,
+      "crypto_symbol": "LINK9",
+      "amount": 0.310099,
+      "fiat_amount": 445.04,
+      "date": "2025-05-30T11:07:10.513Z",
+      "status": "completed"
+    },
+    {
+      "id": 157,
+      "user_id": 1,
+      "crypto_symbol": "LTC51",
+      "amount": 0.591118,
+      "fiat_amount": 1118.81,
+      "date": "2025-07-14T08:01:38.706Z",
+      "status": "failed"
+    },
+    {
+      "id": 158,
+      "user_id": 2,
+      "crypto_symbol": "ADA33",
+      "amount": 1.968453,
+      "fiat_amount": 1537.58,
+      "date": "2025-08-30T14:52:22.803Z",
+      "status": "pending"
+    },
+    {
+      "id": 159,
+      "user_id": 3,
+      "crypto_symbol": "BTC15",
+      "amount": 0.509806,
+      "fiat_amount": 1994.13,
+      "date": "2025-09-06T18:14:37.353Z",
+      "status": "failed"
+    },
+    {
+      "id": 160,
+      "user_id": 1,
+      "crypto_symbol": "BTC15",
+      "amount": 0.205981,
+      "fiat_amount": 1445.26,
+      "date": "2025-08-28T10:36:29.930Z",
+      "status": "pending"
+    },
+    {
+      "id": 161,
+      "user_id": 2,
+      "crypto_symbol": "ETH91",
+      "amount": 1.45012,
+      "fiat_amount": 141.21,
+      "date": "2025-09-03T12:40:49.401Z",
+      "status": "pending"
+    },
+    {
+      "id": 162,
+      "user_id": 3,
+      "crypto_symbol": "MATIC26",
+      "amount": 0.936076,
+      "fiat_amount": 1734.81,
+      "date": "2025-07-24T01:02:30.625Z",
+      "status": "completed"
+    },
+    {
+      "id": 163,
+      "user_id": 1,
+      "crypto_symbol": "UNI40",
+      "amount": 0.59422,
+      "fiat_amount": 431.54,
+      "date": "2025-09-28T12:55:11.843Z",
+      "status": "failed"
+    },
+    {
+      "id": 164,
+      "user_id": 2,
+      "crypto_symbol": "ATOM27",
+      "amount": 0.027083,
+      "fiat_amount": 1099.53,
+      "date": "2025-06-19T10:48:05.042Z",
+      "status": "pending"
+    },
+    {
+      "id": 165,
+      "user_id": 3,
+      "crypto_symbol": "BTC60",
+      "amount": 1.480858,
+      "fiat_amount": 898.95,
+      "date": "2025-09-24T23:07:36.731Z",
+      "status": "failed"
+    },
+    {
+      "id": 166,
+      "user_id": 1,
+      "crypto_symbol": "XRP52",
+      "amount": 0.089284,
+      "fiat_amount": 776.36,
+      "date": "2025-10-21T04:12:02.946Z",
+      "status": "pending"
+    },
+    {
+      "id": 167,
+      "user_id": 2,
+      "crypto_symbol": "LINK39",
+      "amount": 1.34112,
+      "fiat_amount": 579.47,
+      "date": "2025-10-02T05:35:07.922Z",
+      "status": "failed"
+    },
+    {
+      "id": 168,
+      "user_id": 3,
+      "crypto_symbol": "TRX44",
+      "amount": 0.066976,
+      "fiat_amount": 1023.53,
+      "date": "2025-06-11T19:26:52.664Z",
+      "status": "failed"
+    },
+    {
+      "id": 169,
+      "user_id": 1,
+      "crypto_symbol": "LINK39",
+      "amount": 1.329178,
+      "fiat_amount": 526.14,
+      "date": "2025-06-21T17:45:08.361Z",
+      "status": "completed"
+    },
+    {
+      "id": 170,
+      "user_id": 2,
+      "crypto_symbol": "BTC90",
+      "amount": 1.289606,
+      "fiat_amount": 1291.88,
+      "date": "2025-05-11T04:23:56.856Z",
+      "status": "pending"
+    },
+    {
+      "id": 171,
+      "user_id": 3,
+      "crypto_symbol": "ATOM87",
+      "amount": 0.692624,
+      "fiat_amount": 1910.31,
+      "date": "2025-07-31T03:21:05.136Z",
+      "status": "failed"
+    },
+    {
+      "id": 172,
+      "user_id": 1,
+      "crypto_symbol": "ATOM57",
+      "amount": 1.051041,
+      "fiat_amount": 1832.68,
+      "date": "2025-07-10T06:17:07.031Z",
+      "status": "failed"
+    },
+    {
+      "id": 173,
+      "user_id": 2,
+      "crypto_symbol": "BTC30",
+      "amount": 0.473468,
+      "fiat_amount": 270.33,
+      "date": "2025-09-30T19:00:03.901Z",
+      "status": "failed"
+    },
+    {
+      "id": 174,
+      "user_id": 3,
+      "crypto_symbol": "LTC81",
+      "amount": 0.431993,
+      "fiat_amount": 794.97,
+      "date": "2025-07-16T17:05:46.038Z",
+      "status": "failed"
+    },
+    {
+      "id": 175,
+      "user_id": 1,
+      "crypto_symbol": "SOL47",
+      "amount": 1.325849,
+      "fiat_amount": 1900.24,
+      "date": "2025-05-22T09:29:28.896Z",
+      "status": "failed"
+    },
+    {
+      "id": 176,
+      "user_id": 2,
+      "crypto_symbol": "DOT79",
+      "amount": 0.501936,
+      "fiat_amount": 1261.63,
+      "date": "2025-09-01T13:34:51.849Z",
+      "status": "pending"
+    },
+    {
+      "id": 177,
+      "user_id": 3,
+      "crypto_symbol": "BTC75",
+      "amount": 0.576663,
+      "fiat_amount": 828.84,
+      "date": "2025-07-27T22:41:58.960Z",
+      "status": "failed"
+    },
+    {
+      "id": 178,
+      "user_id": 1,
+      "crypto_symbol": "TRX59",
+      "amount": 1.30229,
+      "fiat_amount": 449.88,
+      "date": "2025-07-25T21:38:44.690Z",
+      "status": "completed"
+    },
+    {
+      "id": 179,
+      "user_id": 2,
+      "crypto_symbol": "LTC36",
+      "amount": 0.262996,
+      "fiat_amount": 1062.71,
+      "date": "2025-10-08T21:27:28.399Z",
+      "status": "pending"
+    },
+    {
+      "id": 180,
+      "user_id": 3,
+      "crypto_symbol": "LTC6",
+      "amount": 0.427994,
+      "fiat_amount": 837.84,
+      "date": "2025-09-21T14:22:19.655Z",
+      "status": "pending"
+    },
+    {
+      "id": 181,
+      "user_id": 1,
+      "crypto_symbol": "ETH16",
+      "amount": 0.890756,
+      "fiat_amount": 628.63,
+      "date": "2025-07-22T15:01:46.073Z",
+      "status": "pending"
+    },
+    {
+      "id": 182,
+      "user_id": 2,
+      "crypto_symbol": "DOT64",
+      "amount": 0.416071,
+      "fiat_amount": 1545.68,
+      "date": "2025-07-05T03:11:08.899Z",
+      "status": "failed"
+    },
+    {
+      "id": 183,
+      "user_id": 3,
+      "crypto_symbol": "AVAX35",
+      "amount": 0.129271,
+      "fiat_amount": 296.88,
+      "date": "2025-05-29T03:57:34.281Z",
+      "status": "completed"
+    },
+    {
+      "id": 184,
+      "user_id": 1,
+      "crypto_symbol": "ATOM57",
+      "amount": 0.041018,
+      "fiat_amount": 1859.49,
+      "date": "2025-08-07T19:22:28.287Z",
+      "status": "failed"
+    },
+    {
+      "id": 185,
+      "user_id": 2,
+      "crypto_symbol": "SOL77",
+      "amount": 1.033377,
+      "fiat_amount": 673.77,
+      "date": "2025-06-14T13:29:11.610Z",
+      "status": "completed"
+    },
+    {
+      "id": 186,
+      "user_id": 3,
+      "crypto_symbol": "LINK99",
+      "amount": 0.883464,
+      "fiat_amount": 382.57,
+      "date": "2025-09-28T06:04:58.572Z",
+      "status": "completed"
+    },
+    {
+      "id": 187,
+      "user_id": 1,
+      "crypto_symbol": "XLM88",
+      "amount": 1.070693,
+      "fiat_amount": 1891.7,
+      "date": "2025-05-12T01:06:04.391Z",
+      "status": "failed"
+    },
+    {
+      "id": 188,
+      "user_id": 2,
+      "crypto_symbol": "XRP67",
+      "amount": 1.220427,
+      "fiat_amount": 1145.08,
+      "date": "2025-09-06T03:27:26.128Z",
+      "status": "failed"
+    },
+    {
+      "id": 189,
+      "user_id": 3,
+      "crypto_symbol": "ADA93",
+      "amount": 1.667923,
+      "fiat_amount": 879.48,
+      "date": "2025-06-26T16:40:15.435Z",
+      "status": "completed"
+    },
+    {
+      "id": 190,
+      "user_id": 1,
+      "crypto_symbol": "ETH76",
+      "amount": 1.708276,
+      "fiat_amount": 1478.71,
+      "date": "2025-09-07T17:07:57.164Z",
+      "status": "completed"
+    },
+    {
+      "id": 191,
+      "user_id": 2,
+      "crypto_symbol": "DOT79",
+      "amount": 0.944336,
+      "fiat_amount": 124,
+      "date": "2025-08-27T09:43:39.838Z",
+      "status": "failed"
+    },
+    {
+      "id": 192,
+      "user_id": 3,
+      "crypto_symbol": "ETH91",
+      "amount": 0.858194,
+      "fiat_amount": 1231.78,
+      "date": "2025-05-23T09:58:35.701Z",
+      "status": "failed"
+    },
+    {
+      "id": 193,
+      "user_id": 1,
+      "crypto_symbol": "SOL62",
+      "amount": 0.424675,
+      "fiat_amount": 1334.54,
+      "date": "2025-10-06T16:33:05.082Z",
+      "status": "completed"
+    },
+    {
+      "id": 194,
+      "user_id": 2,
+      "crypto_symbol": "ETH91",
+      "amount": 0.10068,
+      "fiat_amount": 862.54,
+      "date": "2025-09-02T08:00:45.387Z",
+      "status": "pending"
+    },
+    {
+      "id": 195,
+      "user_id": 3,
+      "crypto_symbol": "LTC36",
+      "amount": 0.219265,
+      "fiat_amount": 559.98,
+      "date": "2025-06-23T11:38:53.238Z",
+      "status": "completed"
+    },
+    {
+      "id": 196,
+      "user_id": 1,
+      "crypto_symbol": "SOL47",
+      "amount": 1.287055,
+      "fiat_amount": 1200.94,
+      "date": "2025-08-22T09:10:22.478Z",
+      "status": "failed"
+    },
+    {
+      "id": 197,
+      "user_id": 2,
+      "crypto_symbol": "XRP52",
+      "amount": 1.198018,
+      "fiat_amount": 1788.12,
+      "date": "2025-06-27T17:38:13.327Z",
+      "status": "failed"
+    },
+    {
+      "id": 198,
+      "user_id": 3,
+      "crypto_symbol": "ADA48",
+      "amount": 1.365153,
+      "fiat_amount": 1202.75,
+      "date": "2025-10-15T12:28:33.224Z",
+      "status": "pending"
+    },
+    {
+      "id": 199,
+      "user_id": 1,
+      "crypto_symbol": "DOGE8",
+      "amount": 1.394922,
+      "fiat_amount": 791.01,
+      "date": "2025-09-14T20:13:02.170Z",
+      "status": "completed"
+    },
+    {
+      "id": 200,
+      "user_id": 2,
+      "crypto_symbol": "BTC",
+      "amount": 0.963392,
+      "fiat_amount": 172.43,
+      "date": "2025-06-13T23:29:22.331Z",
+      "status": "failed"
+    }
+  ],
+  "rewardHistory": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 33.58,
+      "date": "2025-08-20T01:24:21.667Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 54.42,
+      "date": "2025-08-27T22:24:54.406Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 32.84,
+      "date": "2025-09-28T10:26:42.286Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 38.54,
+      "date": "2025-10-02T10:29:14.521Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 54.74,
+      "date": "2025-06-10T01:46:33.329Z"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 56.9,
+      "date": "2025-05-31T06:09:55.489Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 95.06,
+      "date": "2025-07-25T23:56:12.020Z"
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 97.78,
+      "date": "2025-05-31T09:45:25.093Z"
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 79.66,
+      "date": "2025-08-18T17:50:30.795Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 67.44,
+      "date": "2025-10-14T15:00:05.981Z"
+    },
+    {
+      "id": 11,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 90.7,
+      "date": "2025-10-15T04:05:37.053Z"
+    },
+    {
+      "id": 12,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 79.24,
+      "date": "2025-06-29T19:29:25.106Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 52.92,
+      "date": "2025-07-10T13:06:06.165Z"
+    },
+    {
+      "id": 14,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 89.04,
+      "date": "2025-07-21T08:12:23.731Z"
+    },
+    {
+      "id": 15,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 17.48,
+      "date": "2025-06-26T13:22:22.883Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 92.37,
+      "date": "2025-05-23T11:04:45.677Z"
+    },
+    {
+      "id": 17,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 10.24,
+      "date": "2025-05-31T12:38:33.578Z"
+    },
+    {
+      "id": 18,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 6.88,
+      "date": "2025-05-28T19:01:01.938Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 48.15,
+      "date": "2025-08-09T21:05:02.958Z"
+    },
+    {
+      "id": 20,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 31.23,
+      "date": "2025-11-04T04:41:59.437Z"
+    },
+    {
+      "id": 21,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 60.1,
+      "date": "2025-06-26T03:25:20.816Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 90.55,
+      "date": "2025-05-30T01:52:14.148Z"
+    },
+    {
+      "id": 23,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 97.72,
+      "date": "2025-08-17T15:58:16.626Z"
+    },
+    {
+      "id": 24,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 15.84,
+      "date": "2025-06-17T16:41:25.749Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 18.21,
+      "date": "2025-10-01T14:09:42.304Z"
+    },
+    {
+      "id": 26,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 73.47,
+      "date": "2025-11-06T12:40:21.959Z"
+    },
+    {
+      "id": 27,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 25.38,
+      "date": "2025-09-29T13:48:08.496Z"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 95.58,
+      "date": "2025-07-31T20:37:58.903Z"
+    },
+    {
+      "id": 29,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 6.13,
+      "date": "2025-08-27T03:32:12.083Z"
+    },
+    {
+      "id": 30,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 70,
+      "date": "2025-06-10T23:49:19.499Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 85.44,
+      "date": "2025-05-16T10:27:43.638Z"
+    },
+    {
+      "id": 32,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 19.24,
+      "date": "2025-09-21T08:30:03.903Z"
+    },
+    {
+      "id": 33,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 23.89,
+      "date": "2025-10-18T22:59:35.608Z"
+    },
+    {
+      "id": 34,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 23.91,
+      "date": "2025-06-27T11:20:14.353Z"
+    },
+    {
+      "id": 35,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 60.99,
+      "date": "2025-08-09T20:54:26.160Z"
+    },
+    {
+      "id": 36,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 27.35,
+      "date": "2025-07-10T06:18:14.146Z"
+    },
+    {
+      "id": 37,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 0.67,
+      "date": "2025-05-16T03:49:08.914Z"
+    },
+    {
+      "id": 38,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 60.4,
+      "date": "2025-10-03T16:03:59.600Z"
+    },
+    {
+      "id": 39,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 27.97,
+      "date": "2025-09-12T00:30:45.028Z"
+    },
+    {
+      "id": 40,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 90.17,
+      "date": "2025-08-04T00:26:00.946Z"
+    },
+    {
+      "id": 41,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 71.7,
+      "date": "2025-08-05T09:29:56.083Z"
+    },
+    {
+      "id": 42,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 91.58,
+      "date": "2025-07-21T19:20:38.670Z"
+    },
+    {
+      "id": 43,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 81.7,
+      "date": "2025-09-13T06:53:51.736Z"
+    },
+    {
+      "id": 44,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 99.15,
+      "date": "2025-07-04T10:35:24.199Z"
+    },
+    {
+      "id": 45,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 88.56,
+      "date": "2025-10-27T07:38:28.873Z"
+    },
+    {
+      "id": 46,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 84.93,
+      "date": "2025-08-19T20:27:38.688Z"
+    },
+    {
+      "id": 47,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 4.34,
+      "date": "2025-09-02T02:50:17.148Z"
+    },
+    {
+      "id": 48,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 89.28,
+      "date": "2025-10-29T01:04:40.204Z"
+    },
+    {
+      "id": 49,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 52.29,
+      "date": "2025-06-23T20:12:22.655Z"
+    },
+    {
+      "id": 50,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 46.25,
+      "date": "2025-07-13T00:23:40.842Z"
+    },
+    {
+      "id": 51,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 33.88,
+      "date": "2025-09-20T06:56:36.136Z"
+    },
+    {
+      "id": 52,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 42.54,
+      "date": "2025-08-28T10:50:21.389Z"
+    },
+    {
+      "id": 53,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 3.55,
+      "date": "2025-10-11T13:26:46.770Z"
+    },
+    {
+      "id": 54,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 11.33,
+      "date": "2025-07-05T13:16:17.859Z"
+    },
+    {
+      "id": 55,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 62.51,
+      "date": "2025-07-03T21:40:41.821Z"
+    },
+    {
+      "id": 56,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 70.58,
+      "date": "2025-09-30T02:28:06.718Z"
+    },
+    {
+      "id": 57,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 63.91,
+      "date": "2025-11-05T09:59:31.002Z"
+    },
+    {
+      "id": 58,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 36.98,
+      "date": "2025-07-19T18:24:42.979Z"
+    },
+    {
+      "id": 59,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 80.42,
+      "date": "2025-08-21T05:33:10.095Z"
+    },
+    {
+      "id": 60,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 50.12,
+      "date": "2025-07-20T22:29:16.782Z"
+    },
+    {
+      "id": 61,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 80.77,
+      "date": "2025-08-28T15:02:53.806Z"
+    },
+    {
+      "id": 62,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 19.6,
+      "date": "2025-06-08T05:29:10.338Z"
+    },
+    {
+      "id": 63,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 87.08,
+      "date": "2025-07-25T02:51:55.906Z"
+    },
+    {
+      "id": 64,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 78.74,
+      "date": "2025-09-20T03:31:25.177Z"
+    },
+    {
+      "id": 65,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 82.72,
+      "date": "2025-08-03T01:46:38.751Z"
+    },
+    {
+      "id": 66,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 37.26,
+      "date": "2025-09-20T21:11:12.703Z"
+    },
+    {
+      "id": 67,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 89.42,
+      "date": "2025-06-26T17:39:42.400Z"
+    },
+    {
+      "id": 68,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 4.19,
+      "date": "2025-08-05T08:59:32.749Z"
+    },
+    {
+      "id": 69,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 79.25,
+      "date": "2025-10-17T21:59:47.217Z"
+    },
+    {
+      "id": 70,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 6.16,
+      "date": "2025-08-10T00:11:39.769Z"
+    },
+    {
+      "id": 71,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 23.15,
+      "date": "2025-09-12T07:15:13.476Z"
+    },
+    {
+      "id": 72,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 81.85,
+      "date": "2025-09-30T09:45:46.940Z"
+    },
+    {
+      "id": 73,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 9.78,
+      "date": "2025-07-26T21:31:32.592Z"
+    },
+    {
+      "id": 74,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 2.1,
+      "date": "2025-09-18T20:45:29.327Z"
+    },
+    {
+      "id": 75,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 65.58,
+      "date": "2025-06-19T03:46:52.312Z"
+    },
+    {
+      "id": 76,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 25.69,
+      "date": "2025-07-23T20:16:47.450Z"
+    },
+    {
+      "id": 77,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 70.48,
+      "date": "2025-08-27T21:25:02.113Z"
+    },
+    {
+      "id": 78,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 65.46,
+      "date": "2025-10-15T13:53:15.431Z"
+    },
+    {
+      "id": 79,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 78.55,
+      "date": "2025-08-18T17:13:05.102Z"
+    },
+    {
+      "id": 80,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 30.11,
+      "date": "2025-08-01T23:08:02.026Z"
+    },
+    {
+      "id": 81,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 29.91,
+      "date": "2025-06-26T10:55:26.589Z"
+    },
+    {
+      "id": 82,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 66.36,
+      "date": "2025-09-11T11:36:21.425Z"
+    },
+    {
+      "id": 83,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 72.7,
+      "date": "2025-08-01T13:32:51.495Z"
+    },
+    {
+      "id": 84,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 69.35,
+      "date": "2025-05-20T04:50:06.800Z"
+    },
+    {
+      "id": 85,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 62.79,
+      "date": "2025-07-19T15:05:54.605Z"
+    },
+    {
+      "id": 86,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 91.23,
+      "date": "2025-07-20T09:47:39.915Z"
+    },
+    {
+      "id": 87,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 44.72,
+      "date": "2025-11-03T00:36:16.673Z"
+    },
+    {
+      "id": 88,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 52.58,
+      "date": "2025-06-11T11:15:03.515Z"
+    },
+    {
+      "id": 89,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 86.81,
+      "date": "2025-10-09T05:34:40.177Z"
+    },
+    {
+      "id": 90,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 51.88,
+      "date": "2025-05-30T12:02:22.952Z"
+    },
+    {
+      "id": 91,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 78.68,
+      "date": "2025-08-20T08:10:08.799Z"
+    },
+    {
+      "id": 92,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 73.23,
+      "date": "2025-10-03T22:07:52.427Z"
+    },
+    {
+      "id": 93,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 33.64,
+      "date": "2025-05-19T18:46:41.528Z"
+    },
+    {
+      "id": 94,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 78.74,
+      "date": "2025-06-07T00:28:38.915Z"
+    },
+    {
+      "id": 95,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 83.95,
+      "date": "2025-10-16T13:40:47.208Z"
+    },
+    {
+      "id": 96,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 64.49,
+      "date": "2025-05-22T04:39:48.880Z"
+    },
+    {
+      "id": 97,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 83.21,
+      "date": "2025-10-29T13:19:05.678Z"
+    },
+    {
+      "id": 98,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 12.93,
+      "date": "2025-09-23T18:09:39.623Z"
+    },
+    {
+      "id": 99,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 84.91,
+      "date": "2025-06-20T08:44:26.999Z"
+    },
+    {
+      "id": 100,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 2.62,
+      "date": "2025-07-14T07:21:04.453Z"
+    },
+    {
+      "id": 101,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 3.78,
+      "date": "2025-10-31T02:53:47.054Z"
+    },
+    {
+      "id": 102,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 34.8,
+      "date": "2025-08-15T05:31:32.510Z"
+    },
+    {
+      "id": 103,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 59,
+      "date": "2025-06-10T11:21:35.596Z"
+    },
+    {
+      "id": 104,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 19.52,
+      "date": "2025-08-10T14:09:51.373Z"
+    },
+    {
+      "id": 105,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 67.02,
+      "date": "2025-07-19T06:06:46.108Z"
+    },
+    {
+      "id": 106,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 58.67,
+      "date": "2025-05-16T05:49:27.015Z"
+    },
+    {
+      "id": 107,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 59.62,
+      "date": "2025-09-07T02:35:44.034Z"
+    },
+    {
+      "id": 108,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 59.02,
+      "date": "2025-09-27T05:48:59.865Z"
+    },
+    {
+      "id": 109,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 53.01,
+      "date": "2025-05-24T08:24:38.637Z"
+    },
+    {
+      "id": 110,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 9.62,
+      "date": "2025-09-02T07:39:05.009Z"
+    },
+    {
+      "id": 111,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 86.54,
+      "date": "2025-07-11T05:40:06.452Z"
+    },
+    {
+      "id": 112,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 62.09,
+      "date": "2025-10-06T06:12:57.537Z"
+    },
+    {
+      "id": 113,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 31.13,
+      "date": "2025-07-08T14:40:27.242Z"
+    },
+    {
+      "id": 114,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 91.28,
+      "date": "2025-08-25T18:44:21.419Z"
+    },
+    {
+      "id": 115,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 39.83,
+      "date": "2025-10-31T16:12:56.692Z"
+    },
+    {
+      "id": 116,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 40.35,
+      "date": "2025-08-19T09:35:47.038Z"
+    },
+    {
+      "id": 117,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 1.09,
+      "date": "2025-08-21T21:47:47.396Z"
+    },
+    {
+      "id": 118,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 94.72,
+      "date": "2025-09-24T11:44:28.494Z"
+    },
+    {
+      "id": 119,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 66.97,
+      "date": "2025-06-03T13:05:32.614Z"
+    },
+    {
+      "id": 120,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 51.32,
+      "date": "2025-11-06T01:15:59.355Z"
+    },
+    {
+      "id": 121,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 6.46,
+      "date": "2025-11-02T22:53:44.570Z"
+    },
+    {
+      "id": 122,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 12.15,
+      "date": "2025-08-29T19:28:01.320Z"
+    },
+    {
+      "id": 123,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 47.1,
+      "date": "2025-08-07T21:48:25.958Z"
+    },
+    {
+      "id": 124,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 57.71,
+      "date": "2025-10-12T05:28:06.770Z"
+    },
+    {
+      "id": 125,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 58.84,
+      "date": "2025-06-20T03:02:06.566Z"
+    },
+    {
+      "id": 126,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 34.36,
+      "date": "2025-05-25T18:51:54.535Z"
+    },
+    {
+      "id": 127,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 17.59,
+      "date": "2025-09-22T08:17:32.383Z"
+    },
+    {
+      "id": 128,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 12.36,
+      "date": "2025-10-17T21:13:07.872Z"
+    },
+    {
+      "id": 129,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 47.58,
+      "date": "2025-05-18T18:45:37.369Z"
+    },
+    {
+      "id": 130,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 30.98,
+      "date": "2025-06-23T02:02:20.757Z"
+    },
+    {
+      "id": 131,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 33.63,
+      "date": "2025-08-15T14:32:44.808Z"
+    },
+    {
+      "id": 132,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 69.69,
+      "date": "2025-06-06T04:11:46.510Z"
+    },
+    {
+      "id": 133,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 32.25,
+      "date": "2025-06-28T05:01:25.070Z"
+    },
+    {
+      "id": 134,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 3.17,
+      "date": "2025-09-22T00:31:08.197Z"
+    },
+    {
+      "id": 135,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 3.47,
+      "date": "2025-07-26T18:51:56.766Z"
+    },
+    {
+      "id": 136,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 52.69,
+      "date": "2025-06-26T19:51:54.395Z"
+    },
+    {
+      "id": 137,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 19.23,
+      "date": "2025-10-21T07:39:44.948Z"
+    },
+    {
+      "id": 138,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 61.4,
+      "date": "2025-07-10T13:21:22.848Z"
+    },
+    {
+      "id": 139,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 22.41,
+      "date": "2025-07-19T19:16:57.445Z"
+    },
+    {
+      "id": 140,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 14.51,
+      "date": "2025-05-16T04:56:47.327Z"
+    },
+    {
+      "id": 141,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 38.44,
+      "date": "2025-07-15T02:45:41.727Z"
+    },
+    {
+      "id": 142,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 27.8,
+      "date": "2025-05-18T09:39:02.045Z"
+    },
+    {
+      "id": 143,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 60.07,
+      "date": "2025-05-31T13:26:52.281Z"
+    },
+    {
+      "id": 144,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 86.78,
+      "date": "2025-09-14T18:18:20.607Z"
+    },
+    {
+      "id": 145,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 3.82,
+      "date": "2025-09-09T07:43:54.132Z"
+    },
+    {
+      "id": 146,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 78.71,
+      "date": "2025-08-06T10:50:11.203Z"
+    },
+    {
+      "id": 147,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 66.68,
+      "date": "2025-11-03T23:04:54.810Z"
+    },
+    {
+      "id": 148,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 80.12,
+      "date": "2025-10-08T14:03:17.276Z"
+    },
+    {
+      "id": 149,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 73.06,
+      "date": "2025-08-02T00:00:47.820Z"
+    },
+    {
+      "id": 150,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 47.82,
+      "date": "2025-06-19T11:22:54.585Z"
+    },
+    {
+      "id": 151,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 32.64,
+      "date": "2025-05-15T17:47:36.081Z"
+    },
+    {
+      "id": 152,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 9.41,
+      "date": "2025-10-27T00:29:23.991Z"
+    },
+    {
+      "id": 153,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 43.45,
+      "date": "2025-09-29T02:58:09.184Z"
+    },
+    {
+      "id": 154,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 76.89,
+      "date": "2025-05-25T06:47:03.605Z"
+    },
+    {
+      "id": 155,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 29.11,
+      "date": "2025-10-05T07:56:03.998Z"
+    },
+    {
+      "id": 156,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 87.94,
+      "date": "2025-06-27T05:44:25.990Z"
+    },
+    {
+      "id": 157,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 44.56,
+      "date": "2025-07-14T18:12:53.316Z"
+    },
+    {
+      "id": 158,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 73.2,
+      "date": "2025-08-18T23:01:08.363Z"
+    },
+    {
+      "id": 159,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 90.84,
+      "date": "2025-09-23T07:19:35.317Z"
+    },
+    {
+      "id": 160,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 7.06,
+      "date": "2025-10-11T01:08:03.147Z"
+    },
+    {
+      "id": 161,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 81.34,
+      "date": "2025-08-04T03:17:18.733Z"
+    },
+    {
+      "id": 162,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 81.32,
+      "date": "2025-09-28T18:30:14.000Z"
+    },
+    {
+      "id": 163,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 91.69,
+      "date": "2025-06-09T20:56:31.084Z"
+    },
+    {
+      "id": 164,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 4.66,
+      "date": "2025-08-12T13:41:48.359Z"
+    },
+    {
+      "id": 165,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 90.03,
+      "date": "2025-09-13T11:57:27.099Z"
+    },
+    {
+      "id": 166,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 89.7,
+      "date": "2025-07-21T21:52:17.402Z"
+    },
+    {
+      "id": 167,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 30.76,
+      "date": "2025-10-25T10:03:04.127Z"
+    },
+    {
+      "id": 168,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 14.97,
+      "date": "2025-07-04T19:54:15.508Z"
+    },
+    {
+      "id": 169,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 74.13,
+      "date": "2025-11-01T12:21:29.954Z"
+    },
+    {
+      "id": 170,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 83.68,
+      "date": "2025-10-04T01:02:45.764Z"
+    },
+    {
+      "id": 171,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 36.79,
+      "date": "2025-06-15T21:54:34.886Z"
+    },
+    {
+      "id": 172,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 9.17,
+      "date": "2025-10-12T13:58:19.527Z"
+    },
+    {
+      "id": 173,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 20.69,
+      "date": "2025-10-11T21:30:21.125Z"
+    },
+    {
+      "id": 174,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 26.49,
+      "date": "2025-08-16T12:18:30.238Z"
+    },
+    {
+      "id": 175,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 44.33,
+      "date": "2025-06-16T02:31:18.526Z"
+    },
+    {
+      "id": 176,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 93.43,
+      "date": "2025-10-11T10:06:39.257Z"
+    },
+    {
+      "id": 177,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 47.35,
+      "date": "2025-07-16T07:10:48.292Z"
+    },
+    {
+      "id": 178,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 65.63,
+      "date": "2025-07-22T03:41:50.367Z"
+    },
+    {
+      "id": 179,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 16.56,
+      "date": "2025-09-30T15:44:33.331Z"
+    },
+    {
+      "id": 180,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 86.92,
+      "date": "2025-06-13T21:51:16.963Z"
+    },
+    {
+      "id": 181,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 90.41,
+      "date": "2025-09-30T02:35:52.210Z"
+    },
+    {
+      "id": 182,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 64.7,
+      "date": "2025-06-04T17:25:40.931Z"
+    },
+    {
+      "id": 183,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 57.48,
+      "date": "2025-07-21T06:55:32.299Z"
+    },
+    {
+      "id": 184,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 61.35,
+      "date": "2025-07-10T04:20:47.117Z"
+    },
+    {
+      "id": 185,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 68.22,
+      "date": "2025-09-21T16:11:59.002Z"
+    },
+    {
+      "id": 186,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 36.55,
+      "date": "2025-05-20T12:58:52.202Z"
+    },
+    {
+      "id": 187,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 34.5,
+      "date": "2025-07-13T01:12:17.130Z"
+    },
+    {
+      "id": 188,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 94.98,
+      "date": "2025-09-30T02:57:25.775Z"
+    },
+    {
+      "id": 189,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 45.43,
+      "date": "2025-08-06T15:29:20.352Z"
+    },
+    {
+      "id": 190,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 54.96,
+      "date": "2025-08-21T19:14:09.105Z"
+    },
+    {
+      "id": 191,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 10.63,
+      "date": "2025-08-02T08:20:31.838Z"
+    },
+    {
+      "id": 192,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 53.4,
+      "date": "2025-07-26T13:16:36.447Z"
+    },
+    {
+      "id": 193,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 50.88,
+      "date": "2025-07-30T01:23:02.324Z"
+    },
+    {
+      "id": 194,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 37.94,
+      "date": "2025-10-11T18:07:04.802Z"
+    },
+    {
+      "id": 195,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 12.08,
+      "date": "2025-06-20T20:40:34.233Z"
+    },
+    {
+      "id": 196,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 26.9,
+      "date": "2025-08-28T08:19:14.495Z"
+    },
+    {
+      "id": 197,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 76.48,
+      "date": "2025-06-24T11:28:07.737Z"
+    },
+    {
+      "id": 198,
+      "user_id": 3,
+      "type": "referral",
+      "amount": 73.53,
+      "date": "2025-07-23T23:56:46.052Z"
+    },
+    {
+      "id": 199,
+      "user_id": 1,
+      "type": "airdrop",
+      "amount": 91.89,
+      "date": "2025-07-15T10:24:59.387Z"
+    },
+    {
+      "id": 200,
+      "user_id": 2,
+      "type": "purchase_bonus",
+      "amount": 3.15,
+      "date": "2025-10-17T03:56:06.852Z"
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "1-month membership",
+      "price": 9.99,
+      "discount": 10,
+      "merchant": "Merchant Inc",
+      "payment_method": "card"
+    },
+    {
+      "id": 2,
+      "name": "1-month crypto membership",
+      "price": 0.01,
+      "discount": 0,
+      "merchant": "Merchant Inc",
+      "payment_method": "crypto"
+    },
+    {
+      "id": 3,
+      "name": "Annual membership",
+      "price": 99.99,
+      "discount": 15,
+      "merchant": "Merchant Inc",
+      "payment_method": "card"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "holder_id": 1,
+      "brand": "Visa",
+      "last4": "1001",
+      "exp": "12/27",
+      "name": "Alice"
+    },
+    {
+      "id": 2,
+      "holder_id": 1,
+      "brand": "Mastercard",
+      "last4": "2001",
+      "exp": "11/26",
+      "name": "Alice"
+    },
+    {
+      "id": 3,
+      "holder_id": 2,
+      "brand": "Visa",
+      "last4": "1002",
+      "exp": "12/27",
+      "name": "Bob"
+    },
+    {
+      "id": 4,
+      "holder_id": 2,
+      "brand": "Mastercard",
+      "last4": "2002",
+      "exp": "11/26",
+      "name": "Bob"
+    },
+    {
+      "id": 5,
+      "holder_id": 3,
+      "brand": "Visa",
+      "last4": "1003",
+      "exp": "12/27",
+      "name": "Merchant Inc"
+    },
+    {
+      "id": 6,
+      "holder_id": 3,
+      "brand": "Mastercard",
+      "last4": "2003",
+      "exp": "11/26",
+      "name": "Merchant Inc"
+    }
+  ],
+  "banks": [
+    {
+      "id": 1,
+      "holder_id": 1,
+      "bank_name": "First Mock Bank",
+      "account_last4": "3001",
+      "routing": "000000000"
+    },
+    {
+      "id": 2,
+      "holder_id": 2,
+      "bank_name": "First Mock Bank",
+      "account_last4": "3002",
+      "routing": "000000000"
+    },
+    {
+      "id": 3,
+      "holder_id": 3,
+      "bank_name": "First Mock Bank",
+      "account_last4": "3003",
+      "routing": "000000000"
+    }
+  ]
+}

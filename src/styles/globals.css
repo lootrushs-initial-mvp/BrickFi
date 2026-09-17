@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-void-950 text-cream-100 font-sans antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+
+  ::selection {
+    @apply bg-accent/35 text-cream-50;
+  }
+
+  a {
+    @apply text-inherit no-underline transition-colors duration-200;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-void-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-void-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent/40;
+  }
+}
+
+@layer components {
+  .brick-gradient-text {
+    @apply bg-gradient-to-r from-accent via-accent-light to-secondary bg-clip-text text-transparent;
+  }
+
+  .glass-panel {
+    @apply bg-void-800/60 backdrop-blur-xl border border-void-700/80;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-display {
+    font-family: 'Outfit', system-ui, sans-serif;
+  }
+}
+
+/* RainbowKit overrides for RevoFi design system */
+[data-rk] button {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
+}
+
+[data-rk] [data-testid="rk-connect-button"] {
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+}
